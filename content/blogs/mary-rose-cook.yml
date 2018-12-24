@@ -1,5 +1,8 @@
 author:
   name: Mary Rose Cook
+  github: https://github.com/maryrosecook
+  bio: |
+    Mary Rose Cook is a developer writing Javascript and Clojure. She's worked at Maker's Academy, the Recurse Center, Ableton, and Pusher.
 title: Mary Rose Cook
 slug: /mary-rose-cook
 url: https://maryrosecook.com
@@ -8,4 +11,4 @@ tags:
   - lisp
   - clojure
 description: |
-  Mary Rose Cook is a developer writing Javascript and Clojure. She creates programming environments, compilers, and more.
+  Mary Rose Cook is a developer writing Javascript and Clojure. Her blog and website features her talks, blog posts, and links to her other content. 

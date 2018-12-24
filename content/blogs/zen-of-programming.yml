@@ -1,5 +1,8 @@
 author:
   name: Ali Spittel
+  github: https://github.com/aspittel/
+  bio: |
+    Ali Spittel is a full stack developer creating websites with Python, Javascript, and Vue.js or React. She runs the blog Zen of Programming, writing about topics like learning programming, front end development, and soft skills.
 title: The Zen of Programming
 slug: zen-of-programming
 url: https://zen-of-programming.com
@@ -8,4 +11,4 @@ tags:
   - vue
   - python
 description: |
-  Ali Spittel is a developer and educator, blogging about React, Vue, and Python. Her blog's title comes from the famous Python guidelines, "The Zen of Programming."
+  "The Zen of Programming" is a blog about React, Vue, and Python. With a title based on the famous Python guidelines, "The Zen of Programming" covers topics from web design to soft skills necessary to develop software on a team.

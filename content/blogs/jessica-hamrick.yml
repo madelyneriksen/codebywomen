@@ -1,5 +1,7 @@
 author:
   name: Jessica Hamrick
+  bio: |
+    Jessica Hamrick is a research scientist at DeepMind and an advocate for Open Source. She completed her PhD in Psychology at UC Berkley in Tom Griffiths' Computational Science lab.
 title: Jessica Hamrick
 slug: /jessica-hamrick
 url: http://www.jesshamrick.com/
@@ -8,4 +10,4 @@ tags:
   - data science
   - machine learning
 description: |
-  Jessica Hamrick is a research scientist at DeepMind and an advocate for open source. She's a core contributor to the Jupyter project, and blogs about data science.
+  Jessica Hamrick blogs about Jupyter notebooks, Emacs, and data science. She's a core contributor to the Jupyter project, and her insight into Python is invaluable.

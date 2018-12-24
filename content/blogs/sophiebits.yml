@@ -1,6 +1,8 @@
 author:
   name: Sophie Alpert
   github: https://github.com/sophiebits
+  bio: |
+    Sophie Alpert is the Engineering Manager of React at Facebook. She has previously worked at Khan Academy, and cares about intersectional feminism and kindness.
 title: Sophie Alpert
 slug: /sophie-bits
 url: https://sophiebits.com
@@ -8,4 +10,4 @@ tags:
   - react
   - javascript
 description: |
-  Engineering Manager of React at Facebook, Sophie Alpert writes about engineering, public speaking, and intersectional feminism.
+  Sophie Alpert's blog covers engineering, public speaking, and intersectional feminism. Her writing offers an inside look at React development.
