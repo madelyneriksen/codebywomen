@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Card from './generic-card';
+import Tag from './tag'
 import 'tachyons';
 import '../styles/custom.tachyons.css';
 
@@ -12,7 +13,7 @@ export default props => (
     <p className="db f5 sans-serif lh-copy">{props.description}</p>
     <div className="flex flex-wrap justify-start">
       {props.tags && props.tags.map(tag => (
-        <span className="pa1 mr1 mv1 bg-lightest-blue navy sans-serif ttc pointer">{tag}</span>
+        <Tag>{tag}</Tag>
       ))}
     </div>
   </Card>
