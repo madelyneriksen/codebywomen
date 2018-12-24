@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Matches Snapshot 1`] = `
+<div
+  class="bg-white h3 flex items-center pa2"
+>
+  <span
+    class="f3 sans-serif"
+  >
+    CodeByWomen
+  </span>
+</div>
+`;
