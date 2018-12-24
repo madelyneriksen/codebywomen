@@ -12,6 +12,7 @@ export default ({data}) => (
         author={node.author}
         description={node.description}
         tags={node.tags}
+        slug={node.slug}
       />
     ))}
     </div>
@@ -27,6 +28,7 @@ export const query = graphql`
           author
           description
           tags
+          slug
         }
       }
     }
