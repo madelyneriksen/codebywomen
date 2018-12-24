@@ -6,7 +6,7 @@ import '../styles/grid.css';
 
 
 export default props => (
-  <div className="showcase__grid w-100 mw9 center">
+  <div className="showcase__grid w-100 mw9 pa2">
     {props.children}
   </div>
 )
