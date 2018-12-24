@@ -8,7 +8,7 @@ export const PureNavbar = props => {
   const data = props.data;
   return (
     <div className="bg-white h3 flex items-center pa2">
-      <Link className="f3 sans-serif no-underline dark-gray" to="/">{data.site.siteMetadata.title}</Link>
+      <Link className="f3 accent-font no-underline dark-gray" to="/">{data.site.siteMetadata.title}</Link>
     </div>
   )
 }

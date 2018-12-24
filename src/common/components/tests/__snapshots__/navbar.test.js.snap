@@ -5,7 +5,7 @@ exports[`Navbar Matches Snapshot 1`] = `
   className="bg-white h3 flex items-center pa2"
 >
   <a
-    className="f3 sans-serif no-underline dark-gray"
+    className="f3 accent-font no-underline dark-gray"
     href="/"
   >
     CodeByWomen
