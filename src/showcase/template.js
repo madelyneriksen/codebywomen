@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../common/layouts';
 import Hero from '../common/components/hero';
 import TextCard from '../common/components/text-card';
+import LinksCard from './components/links-card';
 import { graphql } from 'gatsby';
 import 'tachyons';
 import '../common/styles/custom.tachyons.css';
@@ -13,6 +14,7 @@ export default ({ data }) => {
     title,
     description,
     author,
+    url,
   } = data.blogsYaml;
   return (
     <Layout>
@@ -26,6 +28,9 @@ export default ({ data }) => {
         <TextCard
           title={`About the Author`}
           description={author.bio} />
+        <LinksCard
+          url={url}
+          github={author.github} />
       </div>
     </Layout>
   )
@@ -36,9 +41,11 @@ export const query = graphql`
     blogsYaml(slug: {eq: $slug}) {
       title
       description
+      url
       author {
         name
         bio
+        github
       }
     }
   }
