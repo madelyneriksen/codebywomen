@@ -1,6 +1,7 @@
 // Sidebar links to the authors other content
 import React from 'react';
 import Card from '../../common/components/generic-card';
+import Header from '../../common/components/small-header';
 import {
   FaGithub,
   FaGlobe,
@@ -26,7 +27,7 @@ export default (props) => {
   } = props;
   return (
     <Card>
-      <h2 className="accent-font navy">Links</h2>
+      <Header>Links</Header>
       <IconLink to={url} label="Website"><FaGlobe /></IconLink>
       {github &&
         <IconLink to={github} label="Github"><FaGithub /></IconLink>

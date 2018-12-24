@@ -6,6 +6,7 @@ import Grid from './components/grid';
 import TextCard from '../common/components/text-card';
 import ScreenshotCard from './components/screenshot-card.js';
 import LinksCard from './components/links-card';
+import TagsCard from './components/tags-card';
 import { graphql } from 'gatsby';
 import 'tachyons';
 import '../common/styles/custom.tachyons.css';
@@ -19,6 +20,7 @@ export default ({ data }) => {
     author,
     url,
     screenshot,
+    tags,
   } = data.blogsYaml;
   return (
     <Layout>
@@ -43,6 +45,8 @@ export default ({ data }) => {
           <LinksCard
             url={url}
             github={author.github} />
+          <TagsCard
+            tags={tags} />
         </div>
       </Grid>
     </Layout>
@@ -55,6 +59,7 @@ export const query = graphql`
       title
       description
       url
+      tags
       author {
         name
         bio

@@ -5,7 +5,7 @@ exports[`Navbar Matches Snapshot 1`] = `
   className="bg-white bl bw2 br2 b--blue pa3 shadow-5 w-100 mv3"
 >
   <h2
-    className="accent-font navy"
+    className="accent-font ma0 navy"
   >
     Links
   </h2>
