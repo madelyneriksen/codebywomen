@@ -10,7 +10,7 @@ export default props => (
     <p className="db f5 sans-serif lh-copy">{props.description}</p>
     <div className="flex flex-wrap justify-start">
       {props.tags && props.tags.map(tag => (
-        <span className="pa1 mr1 bg-lightest-blue navy sans-serif ttc pointer">{tag}</span>
+        <span className="pa1 mr1 mv1 bg-lightest-blue navy sans-serif ttc pointer">{tag}</span>
       ))}
     </div>
   </div>
