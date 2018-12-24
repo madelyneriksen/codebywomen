@@ -1,5 +1,9 @@
 author: Ali Spittel
 title: The Zen of Programming
 url: https://zen-of-programming.com
+tags:
+  - react
+  - vue
+  - python
 description: |
   Ali Spittel is a developer and educator, blogging about React, Vue, and Python. Her blog's title comes from the famous Python guidelines, "The Zen of Programming."
