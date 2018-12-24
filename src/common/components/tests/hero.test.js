@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Hero from '../blog-card';
+import Hero from '../hero';
 
 
 describe("Navbar", () => {

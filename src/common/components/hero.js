@@ -6,9 +6,9 @@ import '../styles/custom.tachyons.css';
 
 export default props => (
   <div className="pv5 flex items-center justify-center flex-column bg-lightest-blue">
-    <h1 className="f2 f1-ns accent-font navy lh-copy">{props.title}</h1>
+    <h1 className="f2 f1-ns accent-font navy lh-copy tc">{props.title}</h1>
     {props.subtitle &&
-      <p className="sans-serif lh-copy f4">{props.subtitle}</p>
+      <p className="sans-serif lh-copy f4 tc">{props.subtitle}</p>
     }
   </div>
 )
