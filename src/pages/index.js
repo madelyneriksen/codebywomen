@@ -9,7 +9,7 @@ export default ({data}) => (
     {data.allBlogsYaml.edges.map(({node}) => (
       <BlogCard
         title={node.title}
-        author={node.author}
+        author={node.author.name}
         description={node.description}
         tags={node.tags}
         slug={node.slug}
@@ -25,7 +25,9 @@ export const query = graphql`
       edges {
         node {
           title
-          author
+          author {
+            name
+          }
           description
           tags
           slug

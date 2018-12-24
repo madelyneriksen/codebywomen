@@ -17,7 +17,7 @@ export default ({ data }) => {
     <Layout>
       <Hero
         title={title}
-        subtitle={`by ${author}`} />
+        subtitle={`by ${author.name}`} />
     </Layout>
   )
 }
@@ -27,7 +27,9 @@ export const query = graphql`
     blogsYaml(slug: {eq: $slug}) {
       title
       description
-      author
+      author {
+        name
+      }
     }
   }
 `
