@@ -5,7 +5,7 @@ exports[`Navbar Matches Snapshot 1`] = `
   className="bg-white bl bw2 br2 b--blue pa3 shadow-5 w-100 mv2"
 >
   <a
-    className="db f4 sans-serif mv1 navy"
+    className="db f4 sans-serif mv1 navy no-underline"
   />
   <span
     className="db f5 sans-serif gray"
