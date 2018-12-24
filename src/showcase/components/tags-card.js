@@ -10,8 +10,10 @@ import '../../common/styles/custom.tachyons.css';
 export default props => ( 
   <Card>
     <Header>Tags</Header>
-    {props.tags.map(tag => (
-      <Tag>{tag}</Tag>
-    ))}
+    <div className="mt3">
+      {props.tags.map(tag => (
+        <Tag>{tag}</Tag>
+      ))}
+    </div>
   </Card>
 )
