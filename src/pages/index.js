@@ -5,7 +5,7 @@ import Layout from '../common/layouts';
 
 export default ({data}) => (
   <Layout>
-    <div className="mw7 center">
+    <div className="mw7 center pa2">
     {data.allBlogsYaml.edges.map(({node}) => (
       <BlogCard
         title={node.title}
