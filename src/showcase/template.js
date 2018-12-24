@@ -4,6 +4,7 @@ import Layout from '../common/layouts';
 import Hero from '../common/components/hero';
 import Grid from './components/grid';
 import TextCard from '../common/components/text-card';
+import ScreenshotCard from './components/screenshot-card.js';
 import LinksCard from './components/links-card';
 import { graphql } from 'gatsby';
 import 'tachyons';
@@ -17,6 +18,7 @@ export default ({ data }) => {
     description,
     author,
     url,
+    screenshot,
   } = data.blogsYaml;
   return (
     <Layout>
@@ -28,6 +30,11 @@ export default ({ data }) => {
         <TextCard
           title={`Description`}
           description={description} />
+        {screenshot &&
+          <ScreenshotCard
+            image={screenshot.childImageSharp.fluid}
+            url={url} />
+        }
         </div>
         <div className="sidebar">
           <TextCard
@@ -52,6 +59,13 @@ export const query = graphql`
         name
         bio
         github
+      }
+      screenshot {
+        childImageSharp {
+          fluid(maxWidth: 1080) {
+            ...GatsbyImageSharpFluid
+          }
+        }
       }
     }
   }

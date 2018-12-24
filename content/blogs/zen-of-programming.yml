@@ -6,6 +6,7 @@ author:
 title: The Zen of Programming
 slug: zen-of-programming
 url: https://zen-of-programming.com
+screenshot: ./img/screenshot__zen-of-programming.png
 tags:
   - react
   - vue
