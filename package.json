@@ -1,0 +1,29 @@
+{
+  "name": "codebywomen",
+  "private": true,
+  "description": "A collection of blogs written by women.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.75",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "tachyons": "^4.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madelyneriksen/codebywomen"
+  },
+  "bugs": {
+    "url": "https://github.com/madelyneriksen/codebywomen/issues"
+  }
+}
