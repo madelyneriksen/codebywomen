@@ -12,7 +12,7 @@ export default props => {
   return (
     <Card>
       <h2 className="accent-font navy">{title}</h2>
-      <p className="sans-serif lh-copy f4">{description}</p>
+      <p className="sans-serif lh-copy f5">{description}</p>
     </Card>
   )
 }
