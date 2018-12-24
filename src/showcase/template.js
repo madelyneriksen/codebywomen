@@ -19,10 +19,13 @@ export default ({ data }) => {
       <Hero
         title={title}
         subtitle={`by ${author.name}`} />
-      <div className="mw7 center pa2">
+      <div className="mw7 center">
         <TextCard
           title={`Description`}
           description={description} />
+        <TextCard
+          title={`About the Author`}
+          description={author.bio} />
       </div>
     </Layout>
   )
@@ -35,6 +38,7 @@ export const query = graphql`
       description
       author {
         name
+        bio
       }
     }
   }
