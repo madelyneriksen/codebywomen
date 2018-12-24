@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import 'tachyons';
+import '../styles/custom.tachyons.css';
 
 
 export const PureNavbar = props => {
