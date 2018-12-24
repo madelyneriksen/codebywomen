@@ -6,8 +6,8 @@ import 'tachyons';
 export const PureNavbar = props => {
   const data = props.data;
   return (
-    <div class="bg-white h3 flex items-center pa2">
-      <span class="f3 sans-serif">{data.site.siteMetadata.title}</span>
+    <div className="bg-white h3 flex items-center pa2">
+      <Link className="f3 sans-serif no-underline dark-gray" to="/">{data.site.siteMetadata.title}</Link>
     </div>
   )
 }

@@ -2,12 +2,13 @@
 
 exports[`Navbar Matches Snapshot 1`] = `
 <div
-  class="bg-white h3 flex items-center pa2"
+  className="bg-white h3 flex items-center pa2"
 >
-  <span
-    class="f3 sans-serif"
+  <a
+    className="f3 sans-serif no-underline dark-gray"
+    href="/"
   >
     CodeByWomen
-  </span>
+  </a>
 </div>
 `;
