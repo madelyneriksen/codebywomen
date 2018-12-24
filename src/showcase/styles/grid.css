@@ -1,0 +1,17 @@
+.showcase__grid {
+  display: block;
+}
+
+.content { grid-area: content; }
+.sidebar { grid-area: sidebar; }
+
+@media screen and (min-width: 60em) {
+  .showcase__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(18rem, .33fr) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "sidebar content"
+  }
+}
