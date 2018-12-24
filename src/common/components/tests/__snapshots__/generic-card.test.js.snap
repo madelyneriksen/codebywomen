@@ -2,6 +2,6 @@
 
 exports[`Navbar Matches Snapshot 1`] = `
 <div
-  className="bg-white bl bw2 br2 b--blue pa3 shadow-5 w-100 mv2"
+  className="bg-white bl bw2 br2 b--blue pa3 shadow-5 w-100 mv3"
 />
 `;
