@@ -6,9 +6,10 @@ author:
 title: Mary Rose Cook
 slug: /mary-rose-cook
 url: https://maryrosecook.com
+screenshot: ./img/screenshot__mary-rose-cook.png
 tags:
   - javascript
   - lisp
   - clojure
 description: |
-  Mary Rose Cook is a developer writing Javascript and Clojure. Her blog and website features her talks, blog posts, and links to her other content. 
+  Mary Rose Cook is a developer writing Javascript and Clojure. Her blog and website features her talks, blog posts, and links to her other content.
