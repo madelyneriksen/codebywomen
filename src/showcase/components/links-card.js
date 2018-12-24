@@ -10,11 +10,11 @@ import '../../common/styles/custom.tachyons.css';
 
 
 const IconLink = props => (
-    <a
-      href={props.to}
-      className="mv3 f4 db no-underline sans-serif navy hover-blue flex items-center">
-      {props.children}
-      <div className="ph2">{props.label}</div>
+  <a
+    href={props.to}
+    className="mv3 f4 db no-underline sans-serif navy hover-blue flex items-center">
+    {props.children}
+    <div className="ph2">{props.label}</div>
   </a>
 )
 
