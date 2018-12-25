@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import BlogCard from '../blog-card';
 
 
-describe("Navbar", () => {
+describe("Blog Card", () => {
   it("Matches Snapshot", () => {
     const data = {
       title: "The Zen of Programming",

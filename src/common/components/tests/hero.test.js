@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Hero from '../hero';
 
 
-describe("Navbar", () => {
+describe("Hero", () => {
   it("Matches Snapshot", () => {
     const data = {
       title: "The Zen of Programming",

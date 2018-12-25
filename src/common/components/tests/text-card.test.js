@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import TextCard from '../text-card';
 
 
-describe("Navbar", () => {
+describe("Text Card", () => {
   it("Matches Snapshot", () => {
     const data = {
       title: "The Zen of Programming",
