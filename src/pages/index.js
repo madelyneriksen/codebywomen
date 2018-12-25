@@ -13,6 +13,7 @@ export default ({data}) => (
         description={node.description}
         tags={node.tags}
         slug={node.slug}
+        image={node.screenshot}
       />
     ))}
     </div>
@@ -31,6 +32,13 @@ export const query = graphql`
           description
           tags
           slug
+          screenshot {
+            childImageSharp {
+              fluid(maxWidth: 720) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
