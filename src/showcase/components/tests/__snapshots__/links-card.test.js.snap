@@ -2,7 +2,7 @@
 
 exports[`Navbar Matches Snapshot 1`] = `
 <div
-  className="bg-white bl bw2 br2 b--blue pa3 shadow-5 w-100 mv3"
+  className="bg-white br2 b--blue pa3 shadow-4 w-100 mv3"
 >
   <h2
     className="accent-font ma0 navy"

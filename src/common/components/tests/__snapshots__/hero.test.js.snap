@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navbar Matches Snapshot 1`] = `
+exports[`Hero Matches Snapshot 1`] = `
 <div
   className="pv5 flex items-center justify-center flex-column bg-lightest-blue"
 >
