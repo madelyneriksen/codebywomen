@@ -26,7 +26,11 @@ export default props => (
       <p className="db f4 sans-serif lh-copy mb4">{props.description}</p>
       <div className="flex justify-start">
         <Link to={props.slug} className="mr4 sans-serif blue f4 no-underline">View Details</Link>
-        <a href={props.url} className="sans-serif blue f4 no-underline">Visit Site</a>
+        <a
+          href={props.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sans-serif blue f4 no-underline">Visit Site</a>
       </div>
     </div>
   </Card>

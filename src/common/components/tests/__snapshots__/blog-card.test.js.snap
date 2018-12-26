@@ -26,6 +26,8 @@ exports[`Blog Card Matches Snapshot 1`] = `
       </a>
       <a
         className="sans-serif blue f4 no-underline"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         Visit Site
       </a>

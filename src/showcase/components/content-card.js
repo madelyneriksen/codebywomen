@@ -7,7 +7,7 @@ import {NoSpacingCard as Card} from '../../common/components/generic-card';
 
 export default props => (
   <Card>
-    <a href={props.url} className="pointer db mb4"><Img fluid={props.image} /></a>
+    <a href={props.url} target="_blank" rel="noopener noreferrer" className="pointer db mb4"><Img fluid={props.image} /></a>
     <div className="pa3 lh-copy f4 sans-serif">
       <Header>Description</Header>
       <p>{props.text}</p>
