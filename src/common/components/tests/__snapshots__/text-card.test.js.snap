@@ -2,7 +2,7 @@
 
 exports[`Text Card Matches Snapshot 1`] = `
 <div
-  className="bg-white shadow-3 w-100 mv3 pa3"
+  className="bg-white shadow-1 w-100 mv3 pa3"
 >
   <h2
     className="accent-font ma0 navy"
