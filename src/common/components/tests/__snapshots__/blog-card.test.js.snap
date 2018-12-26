@@ -2,16 +2,34 @@
 
 exports[`Blog Card Matches Snapshot 1`] = `
 <div
-  className="bg-white br2 shadow-3 w-100 mv3 pa3"
+  className="bg-white shadow-3 w-100 mv3"
 >
-  <a
-    className="db f3 sans-serif mv1 navy no-underline"
-  />
   <div
-    className="flex flex-wrap justify-start"
-  />
-  <p
-    className="db f4 sans-serif lh-copy"
-  />
+    className="pa3"
+  >
+    <a
+      className="db f3 sans-serif mb1 navy no-underline"
+    />
+    <div
+      className="flex flex-wrap justify-start mb4"
+    />
+    <p
+      className="db f4 sans-serif lh-copy mb4"
+    />
+    <div
+      className="flex justify-start"
+    >
+      <a
+        className="mr4 sans-serif blue f4 no-underline"
+      >
+        View Details
+      </a>
+      <a
+        className="sans-serif blue f4 no-underline"
+      >
+        Visit Site
+      </a>
+    </div>
+  </div>
 </div>
 `;

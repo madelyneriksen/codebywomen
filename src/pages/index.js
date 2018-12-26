@@ -14,6 +14,7 @@ export default ({data}) => (
         tags={node.tags}
         slug={node.slug}
         image={node.screenshot}
+        url={node.url}
       />
     ))}
     </div>
@@ -32,6 +33,7 @@ export const query = graphql`
           description
           tags
           slug
+          url
           screenshot {
             childImageSharp {
               fluid(maxWidth: 720) {

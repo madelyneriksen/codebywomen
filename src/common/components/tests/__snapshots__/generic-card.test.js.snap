@@ -2,6 +2,6 @@
 
 exports[`Generic Card Matches Snapshot 1`] = `
 <div
-  className="bg-white br2 shadow-3 w-100 mv3 pa3"
+  className="bg-white shadow-3 w-100 mv3 pa3"
 />
 `;
