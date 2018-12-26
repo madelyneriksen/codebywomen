@@ -4,7 +4,7 @@ import Layout from '../common/layouts';
 import Hero from '../common/components/hero';
 import Grid from './components/grid';
 import TextCard from '../common/components/text-card';
-import ScreenshotCard from './components/screenshot-card.js';
+import ContentCard from './components/content-card.js';
 import LinksCard from './components/links-card';
 import TagsCard from './components/tags-card';
 import { graphql } from 'gatsby';
@@ -29,14 +29,10 @@ export default ({ data }) => {
         subtitle={`by ${author.name}`} />
       <Grid>
         <div className="content">
-        <TextCard
-          title={`Description`}
-          description={description} />
-        {screenshot &&
-          <ScreenshotCard
-            image={screenshot.childImageSharp.fluid}
-            url={url} />
-        }
+        <ContentCard
+          image={screenshot.childImageSharp.fluid}
+          url={url}
+          text={description}/>
         </div>
         <div className="sidebar">
           <TextCard
