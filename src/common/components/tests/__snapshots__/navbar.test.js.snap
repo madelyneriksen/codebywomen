@@ -2,7 +2,12 @@
 
 exports[`Navbar Matches Snapshot 1`] = `
 <div
-  className="bg-white h3 flex items-center pa2"
+  className="bg-white h3 flex items-center ph2 top-0 z-999 shadow-1"
+  style={
+    Object {
+      "position": "sticky",
+    }
+  }
 >
   <a
     className="f3 accent-font no-underline dark-gray"
