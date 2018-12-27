@@ -1,0 +1,19 @@
+.homepage__columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 30em) {
+  .homepage__columns {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .homepage__columns {
+    padding: 1rem;
+  }
+}
