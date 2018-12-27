@@ -8,7 +8,7 @@ import 'tachyons';
 export default props => (
   <div>
     <Helmet>
-      <body className="mid-gray" />
+      <body className="mid-gray bg-near-white" />
     </Helmet>
     <Navbar />
     {props.children}

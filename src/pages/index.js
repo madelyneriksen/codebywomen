@@ -1,11 +1,12 @@
 import React from "react"
 import BlogCard from '../common/components/blog-card';
+import Columns from '../homepage/components/columns';
 import { graphql } from 'gatsby';
 import Layout from '../common/layouts';
 
 export default ({data}) => (
   <Layout>
-    <div className="mw7 center pa2">
+    <Columns>
     {data.allBlogsYaml.edges.map(({node}) => (
       <BlogCard
         title={node.title}
@@ -17,7 +18,7 @@ export default ({data}) => (
         url={node.url}
       />
     ))}
-    </div>
+    </Columns>
   </Layout>
 )
 

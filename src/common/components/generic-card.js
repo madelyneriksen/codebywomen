@@ -4,7 +4,7 @@ import '../styles/custom.tachyons.css';
 
 
 export const NoSpacingCard = props => {
-  const baseClasses = "bg-white shadow-1 w-100 mv3";
+  const baseClasses = "bg-white shadow-1 w-100";
   const joinedClasses = props.className ? baseClasses + " " + props.className : baseClasses;
   return (
   <div className={joinedClasses}>
