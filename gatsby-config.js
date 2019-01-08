@@ -18,7 +18,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Karla', 'Rubik'],
+          families: ['Karla', 'Open Sans:300,800'],
         },
       },
     },

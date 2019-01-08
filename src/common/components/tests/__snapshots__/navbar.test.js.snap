@@ -6,12 +6,17 @@ Array [
     className="bg-navy pv4 flex items-center ph3 z-999"
   >
     <a
-      className="f2 f1-lg accent-font no-underline washed-blue"
+      className="f2 f1-l fw8 ttu accent-font no-underline washed-blue tracked-tight"
       href="/"
     >
       Code
       <br />
-      By Women
+      <span
+        className="fw3"
+      >
+        By 
+      </span>
+      Women
     </a>
   </div>,
   <div
