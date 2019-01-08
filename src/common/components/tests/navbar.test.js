@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { PureNavbar as Navbar } from '../navbar';
+import Navbar from '../navbar';
 
 
 describe("Navbar", () => {

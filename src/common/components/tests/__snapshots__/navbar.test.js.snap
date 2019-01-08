@@ -1,19 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Navbar Matches Snapshot 1`] = `
-<div
-  className="bg-white h3 flex items-center ph2 top-0 z-999 shadow-1"
-  style={
-    Object {
-      "position": "sticky",
-    }
-  }
->
-  <a
-    className="f3 accent-font no-underline dark-gray"
-    href="/"
+Array [
+  <div
+    className="bg-navy pv4 flex items-center ph3 z-999"
   >
-    CodeByWomen
-  </a>
-</div>
+    <a
+      className="f2 f1-lg accent-font no-underline washed-blue"
+      href="/"
+    >
+      Code
+      <br />
+      By Women
+    </a>
+  </div>,
+  <div
+    className="bg-navy pv4 flex items-center ph3 z-999 top-0"
+    style={
+      Object {
+        "position": "sticky",
+      }
+    }
+  >
+    <a
+      className="washed-blue tracked ttu sans-serif no-underline db"
+      href="/about"
+    >
+      About • 
+    </a>
+    <a
+      className="washed-blue tracked ttu sans-serif no-underline db"
+      href="/contact"
+    >
+      Contact • 
+    </a>
+    <a
+      className="washed-blue tracked ttu sans-serif no-underline db"
+      href="/submit"
+    >
+      Submit
+    </a>
+  </div>,
+]
 `;

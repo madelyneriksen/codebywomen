@@ -1,6 +1,6 @@
 // Main Layout for the website
 import React from 'react';
-import { Navbar } from '../components/navbar';
+import Navbar from '../components/navbar';
 import Helmet from 'react-helmet';
 import 'tachyons';
 
