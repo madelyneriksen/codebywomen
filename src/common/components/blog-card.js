@@ -1,12 +1,11 @@
 import React from 'react';
-import { NoSpacingCard as Card } from './generic-card';
 import Img from 'gatsby-image';
 import 'tachyons';
 import '../styles/custom.tachyons.css';
 
 
 export default props => (
-  <Card className="flex flex-column">
+  <div className="w-100 flex flex-column">
     {props.image &&
       <div>
         <Img
@@ -27,5 +26,5 @@ export default props => (
         rel="noopener noreferrer"
         className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc">Visit Site</a>
     </div>
-  </Card>
+  </div>
 )
