@@ -2,14 +2,14 @@
 
 exports[`Blog Card Matches Snapshot 1`] = `
 <div
-  className="bg-white shadow-1 w-100 flex flex-column"
+  className="w-100 flex flex-column"
 >
   <div
-    className="pa3 flex flex-column justify-between h-100"
+    className="pv3 flex flex-column justify-between h-100"
   >
     <div>
       <a
-        className="db f3 sans-serif mb1 navy no-underline"
+        className="db f3 sans-serif mb1 dark-gray no-underline"
       />
       <div
         className="flex flex-wrap justify-start"
@@ -17,19 +17,14 @@ exports[`Blog Card Matches Snapshot 1`] = `
     </div>
     <div>
       <p
-        className="db f4 sans-serif lh-copy"
+        className="db f5 sans-serif lh-copy"
       />
     </div>
     <div
       className="flex justify-start"
     >
       <a
-        className="mr4 sans-serif blue f4 no-underline"
-      >
-        View Details
-      </a>
-      <a
-        className="sans-serif blue f4 no-underline"
+        className="sans-serif near-white bg-dark-gray b ttu w-100 no-underline pv3 tc"
         rel="noopener noreferrer"
         target="_blank"
       >
