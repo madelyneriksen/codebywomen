@@ -6,9 +6,5 @@ title: Jessica Hamrick
 slug: /jessica-hamrick
 url: http://www.jesshamrick.com/
 screenshot: ./img/screenshot__jessica-hamrick.png
-tags:
-  - python
-  - data science
-  - machine learning
 description: |
   Jessica Hamrick blogs about Jupyter notebooks, Emacs, and data science. She's a core contributor to the Jupyter project, and her insight into Python is invaluable.
