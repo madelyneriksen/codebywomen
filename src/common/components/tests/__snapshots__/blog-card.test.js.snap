@@ -5,11 +5,11 @@ exports[`Blog Card Matches Snapshot 1`] = `
   className="w-100 flex flex-column"
 >
   <div
-    className="pv3 flex flex-column justify-between h-100"
+    className="pv2 flex flex-column justify-between h-100"
   >
     <div>
-      <a
-        className="db f3 sans-serif mb1 dark-gray no-underline"
+      <h3
+        className="fw3 db f3 sans-serif mb1 dark-gray no-underline"
       />
       <a
         className="sans-serif gray"
