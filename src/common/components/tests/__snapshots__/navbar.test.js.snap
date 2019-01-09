@@ -3,24 +3,25 @@
 exports[`Navbar Matches Snapshot 1`] = `
 Array [
   <div
-    className="bg-navy pv4 flex items-center ph3 z-999"
+    className="bg-near-black pv4 flex items-center ph3 z-999"
   >
     <a
       className="f2 f1-l fw8 ttu accent-font no-underline washed-blue tracked-tight"
       href="/"
     >
-      Code
-      <br />
+      {
+       Code
       <span
         className="fw3"
       >
-        By 
+         By 
       </span>
-      Women
+      Women 
+      }
     </a>
   </div>,
   <div
-    className="bg-navy pv4 flex items-center ph3 z-999 top-0"
+    className="bg-near-black pv4 flex items-center ph3 z-999 top-0"
     style={
       Object {
         "position": "sticky",
