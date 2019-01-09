@@ -25,17 +25,13 @@ export default props => (
           <Tag>{tag}</Tag>
         ))}
         </div>
-      </div>
-      <div>
         <p className="db f5 sans-serif lh-copy">{props.description}</p>
       </div>
-      <div className="flex justify-start">
-        <a
-          href={props.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="sans-serif near-white bg-dark-gray b ttu w-100 no-underline pv3 tc">Visit Site</a>
-      </div>
+      <a
+        href={props.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc">Visit Site</a>
     </div>
   </Card>
 )
