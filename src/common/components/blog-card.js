@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { NoSpacingCard as Card } from './generic-card';
 import Img from 'gatsby-image';
-import Tag from './tag'
 import 'tachyons';
 import '../styles/custom.tachyons.css';
 
@@ -20,11 +19,7 @@ export default props => (
     <div className="pv3 flex flex-column justify-between h-100">
       <div>
         <Link to={props.slug} className="db f3 sans-serif mb1 dark-gray no-underline">{props.title}</Link>
-        <div className="flex flex-wrap justify-start">
-        {props.tags && props.tags.map(tag => (
-          <Tag>{tag}</Tag>
-        ))}
-        </div>
+        <a href={props.url} target="_blank" rel="noopener noreferrer" className="sans-serif gray">{props.url}</a>
         <p className="db f5 sans-serif lh-copy">{props.description}</p>
       </div>
       <a
