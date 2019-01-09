@@ -18,7 +18,7 @@ export default props => (
     <div className="pv2 flex flex-column justify-between h-100">
       <div>
         <h3 className="fw3 db f3 sans-serif mb1 dark-gray no-underline">{props.title}</h3>
-        <a href={props.url} target="_blank" rel="noopener noreferrer" className="sans-serif gray">{props.url}</a>
+        <span className="sans-serif gray">by {props.author}</span>
         <p className="db f5 sans-serif lh-copy">{props.description}</p>
       </div>
       <a

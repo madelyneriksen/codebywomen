@@ -11,11 +11,11 @@ exports[`Blog Card Matches Snapshot 1`] = `
       <h3
         className="fw3 db f3 sans-serif mb1 dark-gray no-underline"
       />
-      <a
+      <span
         className="sans-serif gray"
-        rel="noopener noreferrer"
-        target="_blank"
-      />
+      >
+        by 
+      </span>
       <p
         className="db f5 sans-serif lh-copy"
       />
