@@ -30,8 +30,6 @@ export const query = graphql`
             name
           }
           description
-          tags
-          slug
           url
           screenshot {
             childImageSharp {
