@@ -12,8 +12,6 @@ export default ({data}) => (
         title={node.title}
         author={node.author.name}
         description={node.description}
-        tags={node.tags}
-        slug={node.slug}
         image={node.screenshot}
         url={node.url}
       />
