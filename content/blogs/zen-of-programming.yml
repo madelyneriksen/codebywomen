@@ -1,8 +1,10 @@
 author:
   name: Ali Spittel
   github: https://github.com/aspittel/
-  bio: |
-    Ali Spittel is a full stack developer creating websites with Python, Javascript, and Vue.js or React. She runs the blog Zen of Programming, writing about topics like learning programming, front end development, and soft skills.
+  twitter: https://twitter.com/ASpittel
+  instagram: https://www.instagram.com/ali_writes_code/
+  pinterest: https://www.pinterest.com/ali0714/
+  youtube: https://www.youtube.com/channel/UCLCxan3tD5eMxubieyEjt5A
 title: The Zen of Programming
 url: https://zen-of-programming.com
 screenshot: ./img/screenshot__zen-of-programming.png
