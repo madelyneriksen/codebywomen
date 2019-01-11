@@ -10,7 +10,8 @@ Instructions coming soon!
 
 ## TODO
 
-- [ ] Add icon links to cards on homepage
+- [x] Add icon links to cards on homepage
+- [ ] Update and Add More Cards
 - [ ] Create an about page
 - [ ] Create a contact page
 - [ ] Add RSS Feed
