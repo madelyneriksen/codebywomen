@@ -2,10 +2,10 @@
 
 exports[`IconList Component Matches Snapshot 1`] = `
 <div
-  className="flex justify-around items-center f3 pv2"
+  className="flex justify-center items-center f3"
 >
   <a
-    className="dark-gray"
+    className="dark-gray ma2"
     href="https://github.com/madelyneriksen/"
   >
     <svg

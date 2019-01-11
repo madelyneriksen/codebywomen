@@ -27,7 +27,7 @@ exports[`Blog Card Matches Snapshot 1`] = `
     </div>
     <div>
       <div
-        className="flex justify-around items-center f3 pv2"
+        className="flex justify-center items-center f3"
       />
       <a
         className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc"
