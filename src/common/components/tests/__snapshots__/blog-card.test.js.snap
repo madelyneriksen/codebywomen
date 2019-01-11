@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Blog Card Matches Snapshot 1`] = `
-<div
+<section
   className="w-100 flex flex-column"
 >
   <div
@@ -10,23 +10,33 @@ exports[`Blog Card Matches Snapshot 1`] = `
     <div>
       <h3
         className="fw3 db f3 sans-serif mb1 dark-gray no-underline"
-      />
+      >
+        The Zen of Programming
+      </h3>
       <span
         className="sans-serif gray"
       >
         by 
+        Ali Spittel
       </span>
       <p
         className="db f5 sans-serif lh-copy"
-      />
+      >
+        The zen of programming
+      </p>
     </div>
-    <a
-      className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Visit Site
-    </a>
+    <div>
+      <div
+        className="flex justify-around items-center f3 pv2"
+      />
+      <a
+        className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Visit Site
+      </a>
+    </div>
   </div>
-</div>
+</section>
 `;

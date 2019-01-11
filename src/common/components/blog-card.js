@@ -1,11 +1,12 @@
 import React from 'react';
 import Img from 'gatsby-image';
+import IconList from './icon-list.js';
 import 'tachyons';
 import '../styles/custom.tachyons.css';
 
 
 export default props => (
-  <div className="w-100 flex flex-column">
+  <section className="w-100 flex flex-column">
     {props.image &&
       <div>
         <Img
@@ -20,11 +21,14 @@ export default props => (
         <span className="sans-serif gray">by {props.author}</span>
         <p className="db f5 sans-serif lh-copy">{props.description}</p>
       </div>
-      <a
-        href={props.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc">Visit Site</a>
+      <div>
+        <IconList links={props.links} />
+        <a
+          href={props.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="db sans-serif near-white bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 no-underline pv3 tc">Visit Site</a>
+      </div>
     </div>
-  </div>
+  </section>
 )

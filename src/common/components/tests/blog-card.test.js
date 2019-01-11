@@ -11,8 +11,9 @@ describe("Blog Card", () => {
       author: "Ali Spittel",
       tags: ['javascript', 'python'],
       description: "The zen of programming",
+      links: {},
     }
-    const tree = renderer.create(<BlogCard props={data} />).toJSON();
+    const tree = renderer.create(<BlogCard {...data} />).toJSON();
     expect(tree).toMatchSnapshot();
   })
 })

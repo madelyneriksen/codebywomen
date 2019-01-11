@@ -13,6 +13,7 @@ export default ({data}) => (
         author={node.author.name}
         description={node.description}
         image={node.screenshot}
+        links={node.authorLinks}
         url={node.url}
       />
     ))}
@@ -28,6 +29,13 @@ export const query = graphql`
           title
           author {
             name
+          }
+          authorLinks: author {
+            github
+            youtube
+            twitter
+            instagram
+            pinterest
           }
           description
           url
