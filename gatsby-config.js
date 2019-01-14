@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-transformer-yaml',
+    'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -18,7 +19,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Karla', 'Open Sans:300,800'],
+          families: ['Open Sans:400,800'],
         },
       },
     },
