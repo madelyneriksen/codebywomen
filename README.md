@@ -12,8 +12,9 @@ Instructions coming soon!
 
 - [x] Add icon links to cards on homepage
 - [ ] Update and Add More Cards
-- [ ] Create an about page
-- [ ] Create a contact page
+- [x] Create an about page
+- [x] Create a contact page
+- [ ] Add copy for about and contact pages
 - [ ] Add RSS Feed
 - [ ] Add Email list (?)
 
