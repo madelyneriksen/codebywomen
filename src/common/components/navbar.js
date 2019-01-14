@@ -8,7 +8,7 @@ export default Navbar => (
   <React.Fragment>
     <div className="bg-near-black pv4 flex items-center ph3 z-999">
       <Link
-        className="f2 f1-l fw8 ttu accent-font no-underline washed-blue tracked-tight"
+        className="f2 f1-l fw8 ttu sans-serif no-underline washed-blue tracked-tight"
         to="/">{"{"} Code<span className="fw3"> By </span>Women {"}"}</Link>
     </div>
     <div className="bg-near-black pv4 flex items-center ph3 z-999 top-0" style={{position: "sticky"}}>
