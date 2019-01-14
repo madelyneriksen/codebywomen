@@ -6,7 +6,7 @@ Array [
     className="bg-near-black pv4 flex items-center ph3 z-999"
   >
     <a
-      className="f2 f1-l fw8 ttu accent-font no-underline washed-blue tracked-tight"
+      className="f2 f1-l fw8 ttu sans-serif no-underline washed-blue tracked-tight"
       href="/"
     >
       {
@@ -42,9 +42,9 @@ Array [
     </a>
     <a
       className="washed-blue tracked ttu sans-serif no-underline db"
-      href="/submit"
+      href="https://github.com/madelyneriksen/codebywomen"
     >
-      Submit
+      Contribute
     </a>
   </div>,
 ]
