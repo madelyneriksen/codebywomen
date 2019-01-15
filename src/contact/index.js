@@ -1,6 +1,7 @@
 import React from 'react';
 import Message from './messages.js';
 import Form from './form.js';
+import TextContent from '../common/components/text-content';
 import 'tachyons';
 
 
@@ -9,7 +10,7 @@ export default props => (
     {props.message &&
       <Message message={props.message} type={props.type} /> 
     }
-    <h1 className="sans-serif">Contact CodeByWomen</h1>
+    <TextContent html={props.html} />
     <Form />
   </div>
 )
