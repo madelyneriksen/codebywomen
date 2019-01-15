@@ -3,7 +3,7 @@
 exports[`Navbar Matches Snapshot 1`] = `
 Array [
   <div
-    className="bg-near-black pv4 flex items-center ph3 z-999"
+    className="bg-near-black pv4 flex items-center justify-center justify-start-ns php2 ph3-ns z-999"
   >
     <a
       className="f2 f1-l fw8 ttu sans-serif no-underline washed-blue tracked-tight"
@@ -21,7 +21,7 @@ Array [
     </a>
   </div>,
   <div
-    className="bg-near-black pv4 flex items-center ph3 z-999 top-0"
+    className="bg-near-black pv4 flex items-center justify-center justify-start-ns php2 ph3-ns z-999 top-0"
     style={
       Object {
         "position": "sticky",
@@ -29,19 +29,25 @@ Array [
     }
   >
     <a
-      className="washed-blue tracked ttu sans-serif no-underline db"
+      className="near-white hover-mid-gray tracked-ns ttu sans-serif no-underline db mr2 mr4-ns"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      className="near-white hover-mid-gray tracked-ns ttu sans-serif no-underline db mr2 mr4-ns"
       href="/about"
     >
-      About • 
+      About
     </a>
     <a
-      className="washed-blue tracked ttu sans-serif no-underline db"
+      className="near-white hover-mid-gray tracked-ns ttu sans-serif no-underline db mr2 mr4-ns"
       href="/contact"
     >
-      Contact • 
+      Contact
     </a>
     <a
-      className="washed-blue tracked ttu sans-serif no-underline db"
+      className="near-white hover-mid-gray tracked-ns ttu sans-serif no-underline db mr2 mr4-ns"
       href="https://github.com/madelyneriksen/codebywomen"
     >
       Contribute
