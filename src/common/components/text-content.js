@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/text-styles.css';
+import '../styles/text-styles.css';
 
 
 export default props => (

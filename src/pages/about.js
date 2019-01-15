@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../common/layouts';
-import TextContent from '../about/text-content';
+import TextContent from '../common/components/text-content';
 import { graphql } from 'gatsby';
 
 
