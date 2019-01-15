@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextContent Component Matches Snapshot 1`] = `
+<div
+  className="text-content"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<p>Hello world!</p>",
+    }
+  }
+/>
+`;
