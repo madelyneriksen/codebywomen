@@ -2,7 +2,7 @@ import React from 'react';
 import 'tachyons';
 
 
-const formClasses = "db ba b--dark-gray pa2 sans-serif w-100 mb3";
+const formClasses = "db ba b--dark-gray bg-near-white pa2 sans-serif w-100 mb3";
 const labelClasses = "sans-serif pv2 f4 db"
 
 
