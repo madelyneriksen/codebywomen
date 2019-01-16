@@ -4,26 +4,34 @@ import { graphql } from 'gatsby';
 import Contact from '../contact';
 
 
-export default ({ data }) => {
-  let message;
-  let type;
-  if (window) {
-    const url = new URL(window.location.href);
-    message = url.searchParams.get("message");
-    type = url.searchParams.get("type");
-  } else {
-    message = false;
-    type = false;
+export default class ContactPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      message: '',
+      type: ''
+    }
   }
-  return (
-    <Layout>
-      <Contact
-        message={message}
-        type={type}
-        html={data.markdownRemark.html}
-      />
-    </Layout>
-  )
+
+  componentDidMount() {
+    try {
+      const url = new URL(window.location.href);
+      this.setState({message: url.searchParams.get("message")});
+      this.setState({type: url.searchParams.get("type")});
+    } catch(err) {}
+  }
+  
+  render() {
+    return (
+      <Layout>
+        <Contact
+          message={this.state.message}
+          type={this.state.type}
+          html={this.props.data.markdownRemark.html}
+        />
+      </Layout>
+    )
+  }
 }
 
 
