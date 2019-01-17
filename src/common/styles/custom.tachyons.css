@@ -1,1 +1,6 @@
 .sans-serif { font-family: 'Open Sans', sans-serif; }
+
+/* Fixes a firefox bug. */
+textarea:invalid {
+  box-shadow: none;
+}
