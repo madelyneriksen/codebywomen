@@ -3,7 +3,7 @@
 exports[`Navbar Matches Snapshot 1`] = `
 Array [
   <div
-    className="bg-near-black pv4 flex items-center justify-center justify-start-ns php2 ph3-ns z-999"
+    className="bg-near-black flex items-center justify-center justify-start-ns ph2 ph3-ns z-999 pv3"
   >
     <a
       className="f2 f1-l fw8 ttu sans-serif no-underline washed-blue tracked-tight"
@@ -21,7 +21,7 @@ Array [
     </a>
   </div>,
   <div
-    className="bg-near-black pv4 flex items-center justify-center justify-start-ns php2 ph3-ns z-999 top-0"
+    className="bg-near-black flex items-center justify-center justify-start-ns ph2 ph3-ns z-999 pv4 top-0"
     style={
       Object {
         "position": "sticky",
