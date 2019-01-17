@@ -7,7 +7,7 @@ const labelClasses = "sans-serif pv2 f4 db"
 
 
 export default props => (
-  <form method="POST" action="https://www.briskforms.com/go/0005462d369d88f6a0c56d1534976dda" className="db mv4">
+  <form method="POST" action="https://www.briskforms.com/go/0005462d369d88f6a0c56d1534976dda" className="db">
     <label for="name" className={labelClasses}>Your Name</label>
     <input
       type="text"
