@@ -6,7 +6,7 @@ import 'tachyons';
 
 
 export default props => (
-  <div className="mw7 center pa2">
+  <div className="mw7 center">
     <Message message={props.message} type={props.type} /> 
     <TextContent html={props.html} />
     <Form />

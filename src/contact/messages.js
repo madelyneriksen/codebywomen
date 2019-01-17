@@ -10,7 +10,7 @@ export default props => {
   const errorClasses = "bg-washed-red b--red dark-red";
 
   return (
-  <React.Fragment>
+  <div className="pa2">
     {props.message &&
       <div
         className={
@@ -18,6 +18,6 @@ export default props => {
             + (props.type === "success" ? successClasses : errorClasses)
         }>{props.message}</div>
     }
-  </React.Fragment>
+  </div>
   )
 }
