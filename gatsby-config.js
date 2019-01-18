@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "CodeByWomen",
+    siteUrl: "https://www.codebywomen.com"
   },
   plugins: [
     'gatsby-transformer-yaml',
