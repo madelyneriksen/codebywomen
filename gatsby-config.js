@@ -24,5 +24,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "CodeByWomen",
+        short_name: "CodeByWomen",
+        start_url: '/',
+        background_color: '#f4f4f4',
+        theme_color: "#111111",
+        display: 'browser',
+        icon: 'content/img/codebywomen.png',
+      }
+    },
   ]
 }
