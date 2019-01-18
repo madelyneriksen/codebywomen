@@ -36,5 +36,14 @@ module.exports = {
         icon: 'content/img/codebywomen.png',
       }
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-130489047-2",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      }
+    },
   ]
 }
