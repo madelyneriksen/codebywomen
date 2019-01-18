@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../common/layouts';
+import Seo from '../common/components/seo';
 import { graphql } from 'gatsby';
 import Contact from '../contact';
 
@@ -24,6 +25,9 @@ export default class ContactPage extends React.Component {
   render() {
     return (
       <Layout>
+        <Seo
+          title="Contact Us"
+          description="Contact the maintainer of the CodeByWomen project, or submit your own blog to be featured in the directory!" />
         <Contact
           message={this.state.message}
           type={this.state.type}
