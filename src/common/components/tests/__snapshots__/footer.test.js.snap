@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component Matches Snapshot 1`] = `
+<footer
+  className="h5 bg-light-gray flex flex-wrap justify-center"
+>
+  <p
+    className="db w-100 tc self-center sans-serif"
+  >
+    Built with React and Gatsby.
+  </p>
+</footer>
+`;
