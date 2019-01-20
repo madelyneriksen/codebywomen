@@ -21,10 +21,5 @@ export const query = graphql`
     markdownRemark(frontmatter: {type: {eq: "page"}, title: {eq: "About"}}) {
       html
     }
-    site {
-      siteMetadata {
-        siteUrl
-      }
-    }
   }
 `
