@@ -28,7 +28,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allBlogsYaml {
+    allBlogsYaml(sort: {order: DESC, fields: date}) {
       edges {
         node {
           title
