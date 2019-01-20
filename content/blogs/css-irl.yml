@@ -1,0 +1,9 @@
+author:
+  name: Michelle Barker
+  twitter: https://twitter.com/CSSInRealLife
+date: 2019-1-19
+title: "CSS { In Real Life }"
+url: https://css-irl.info/
+screenshot: ./img/css-irl-info.png
+description: |
+  CSS IRL is a project covering front-end development. Written by Michelle Barker, the blog covers everything from CSS to progressive web apps powered by Gatsby.
