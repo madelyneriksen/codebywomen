@@ -12,7 +12,7 @@ exports[`Footer Component Matches Snapshot 1`] = `
   <span
     className="db w-100 tc self-center sans-serif"
   >
-    See the source code on 
+    Grab a copy of the source code on 
     <a
       className="dark-gray"
       href="https://github.com/madelyneriksen/codebywomen"
