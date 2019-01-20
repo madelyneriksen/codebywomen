@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Component Matches Snapshot On Error 1`] = `
+<div
+  className="pa2"
+>
+  <div
+    className="sans-serif pa3 ba db br3 f5 bg-washed-red b--red dark-red"
+  >
+    Awesome!
+  </div>
+</div>
+`;
+
+exports[`Messages Component Matches Snapshot On Success 1`] = `
+<div
+  className="pa2"
+>
+  <div
+    className="sans-serif pa3 ba db br3 f5 bg-washed-green b--green dark-green"
+  >
+    Awesome!
+  </div>
+</div>
+`;

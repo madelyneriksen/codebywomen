@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPage Component Matches Snapshot 1`] = `
+<div
+  className="mw7 center"
+>
+  <div
+    className="pa2"
+  />
+  <div
+    className="text-content"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Hello</p>",
+      }
+    }
+  />
+  <div
+    className="pa2"
+  >
+    <form
+      action="https://www.briskforms.com/go/0005462d369d88f6a0c56d1534976dda"
+      className="db"
+      method="POST"
+    >
+      <label
+        className="sans-serif pv2 f4 db"
+        for="name"
+      >
+        Your Name
+      </label>
+      <input
+        className="db ba b--dark-gray bg-near-white pa2 sans-serif w-100 mb3"
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required={true}
+        type="text"
+      />
+      <label
+        className="sans-serif pv2 f4 db"
+        for="email"
+      >
+        Your Email
+      </label>
+      <input
+        className="db ba b--dark-gray bg-near-white pa2 sans-serif w-100 mb3"
+        id="email"
+        name="email"
+        placeholder="Your Email Address"
+        required={true}
+        type="email"
+      />
+      <label
+        className="sans-serif pv2 f4 db"
+        for="name"
+      >
+        Message
+      </label>
+      <textarea
+        className="db ba b--dark-gray bg-near-white pa2 sans-serif w-100 mb3"
+        id="message"
+        name="message"
+        placeholder="Questions, comments, concerns..."
+        required={true}
+      />
+      <button
+        className="db sans-serif near-white bn bg-near-black bg-animate hover-bg-mid-gray b ttu w-100 pv3 tc pointer"
+        type="submit"
+      >
+        SUBMIT
+      </button>
+    </form>
+  </div>
+</div>
+`;
