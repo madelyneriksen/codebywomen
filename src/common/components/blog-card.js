@@ -19,10 +19,10 @@ export default props => (
       <div>
         <h3 className="fw3 db f3 sans-serif mb1 dark-gray no-underline">{props.title}</h3>
         <span className="sans-serif gray">by {props.author}</span>
+        <IconList links={props.links} />
         <p className="db f5 sans-serif lh-copy">{props.description}</p>
       </div>
       <div>
-        <IconList links={props.links} />
         <a
           href={props.url}
           target="_blank"
