@@ -1,0 +1,8 @@
+author:
+  name: Una Kravets
+date: 2019-1-23
+title: You Might Not Need Javascript
+url: http://youmightnotneedjs.com/
+screenshot: ./img/youmightnotneedjs-com.png
+description: |
+  With CSS3 getting more and more powerful, many web components don't require Javascript. Una Kravet's project "You Might Not Need JS" shows pure HTML5 & CSS3 implementations of common components.
