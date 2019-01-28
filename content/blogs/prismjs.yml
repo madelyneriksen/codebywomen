@@ -1,0 +1,11 @@
+
+author:
+  name: Lea Verou
+  twitter: https://twitter.com/prismjs
+  github: https://github.com/PrismJS/prism
+date: 2019-1-27
+title: PrismJS
+url: https://prismjs.com/
+screenshot: ./img/prismjs-com.png
+description: |
+  PrismJS is a syntax highlighting tool originally created by Lea Verou. It supports dozens of languages and comes with several themes.
