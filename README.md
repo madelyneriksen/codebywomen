@@ -1,6 +1,6 @@
 Code By Women
 ====
-![](https://travis-ci.org/madelyneriksen/codebywomen.svg?branch=master) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)] (https://shields.io/) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io/)
+![](https://travis-ci.org/madelyneriksen/codebywomen.svg?branch=master)[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://shields.io/) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io/)
 
 A collection of awesome technology blogs and projects, created by women. Originally built as a personal list of blogs to check in with frequently, now CodeByWomen aims to serve as an open source index of women who write about and create software.
 
